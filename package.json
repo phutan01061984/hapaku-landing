@@ -4,7 +4,6 @@
   "description": "Hapaku - Đai Chườm Thảo Dược Lưng Bụng Landing Page",
   "private": true,
   "scripts": {
-    "dev": "npx serve .",
-    "build": "echo 'Static site - no build needed'"
+    "dev": "npx serve ."
   }
 }
