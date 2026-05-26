@@ -5,7 +5,6 @@ if (menuBtn) {
     menuBtn.addEventListener('click', () => {
         document.body.classList.toggle('nav-open');
     });
-    // Close nav when clicking a link
     document.querySelectorAll('.nav a').forEach(link => {
         link.addEventListener('click', () => {
             document.body.classList.remove('nav-open');
@@ -49,7 +48,6 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Add animation class to sections
 document.querySelectorAll('section > .container > *').forEach(el => {
     el.classList.add('animate-on-scroll');
     observer.observe(el);
@@ -67,13 +65,28 @@ window.addEventListener('scroll', () => {
     lastScroll = currentScroll;
 });
 
+// ===== FEATURES CAROUSEL =====
+const track = document.getElementById('featuresTrack');
+const prevBtn = document.querySelector('.carousel-prev');
+const nextBtn = document.querySelector('.carousel-next');
+
+if (track && prevBtn && nextBtn) {
+    const scrollAmount = 360;
+    prevBtn.addEventListener('click', () => {
+        track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+    nextBtn.addEventListener('click', () => {
+        track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+}
+
 // ===== COUNTER ANIMATION =====
 function animateCounters() {
     document.querySelectorAll('.stat-num').forEach(counter => {
         const text = counter.textContent;
         if (counter.dataset.animated) return;
         counter.dataset.animated = 'true';
-        
+
         const match = text.match(/(\d+)/);
         if (!match) return;
         const target = parseInt(match[1]);

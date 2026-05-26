@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hapaku - Đai Chườm Thảo Dược Lưng Bụng | Giảm Đau Mỏi Lưng Tự Nhiên</title>
-    <meta name="description" content="Đai chườm thảo dược Hapaku - Giảm đau mỏi lưng mãn tính chỉ sau 20 phút. 12 thảo dược Việt Nam, được công bố tại Sở Y Tế Hà Nội. Freeship + Đổi trả 3 ngày.">
+    <title>Hapaku - Đai Chườm Thảo Dược Lưng Bụng | Giảm Đau Nhanh, Giãn Cơ</title>
+    <meta name="description" content="Đai chườm thảo dược Hapaku - Giảm đau mỏi lưng mãn tính chỉ sau 20 phút. 12 thảo dược Việt Nam, công bố tại Sở Y Tế Hà Nội. Freeship + Đổi trả 3 ngày.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
@@ -12,15 +12,17 @@
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="header">
+<!-- =============================================
+     HEADER (Sticky)
+     ============================================= -->
+<header class="header" id="top">
     <div class="container">
         <div class="header-inner">
             <a href="#" class="logo">Hapaku<sup>®</sup></a>
             <nav class="nav">
                 <a href="#giai-phap">Giải pháp</a>
                 <a href="#thanh-phan">Thành phần</a>
-                <a href="#thuong-hieu">Câu chuyện</a>
+                <a href="#cau-tao">Cấu tạo</a>
                 <a href="#danh-gia">Đánh giá</a>
                 <a href="#faq">FAQ</a>
             </nav>
@@ -32,419 +34,634 @@
     </div>
 </header>
 
-<!-- HERO BANNER -->
+<!-- =============================================
+     SECTION 1: HERO BANNER
+     Comment: "Thiết kế nên dùng hình người đang đeo đai"
+     Comment: "Banner không có pain point → gợi ý tagline"
+     Comment: Lấy slide số 1 làm chuẩn font chữ
+     ============================================= -->
 <section class="hero" id="san-pham">
+    <div class="hero-bg-decor"></div>
     <div class="container">
         <div class="hero-content">
             <div class="hero-text">
                 <div class="hero-badge">
-                    <span class="star">&#9733;</span> <strong>Hapaku đạt 42,000 đánh giá 5 sao trên các nền tảng</strong>
+                    <span class="star">&#9733;</span> Hapaku đạt <strong>42,000 đánh giá 5 sao</strong> trên các nền tảng
                 </div>
                 <h1>ĐAI CHƯỜM THẢO DƯỢC<br><span class="highlight">LƯNG BỤNG HAPAKU</span></h1>
+                <p class="hero-sub-tags">
+                    <span class="tag tag-green">Giảm đau nhanh, Giãn cơ</span>
+                    <span class="tag tag-green">Tăng lưu thông tuần hoàn máu</span>
+                </p>
                 <p class="hero-tagline"><em>"Giảm đau mỏi lưng mãn tính chỉ sau 20 phút — không cần thuốc, không cần châm cứu"</em></p>
+                <!-- CTA #1 (Comment: rải đều 4-6 CTA) -->
                 <div class="hero-ctas">
                     <a href="#combo" class="btn btn-primary btn-lg btn-pulsate">🛒 MUA NGAY – Freeship + Đổi trả 3 ngày</a>
-                    <a href="#combo" class="btn btn-outline btn-lg">XEM COMBO ƯU ĐÃI HÔM NAY &rarr;</a>
+                    <a href="#combo" class="btn btn-outline-white btn-lg">XEM COMBO ƯU ĐÃI HÔM NAY &rarr;</a>
                 </div>
                 <div class="hero-trust">
-                    <div class="trust-item"><span>✅ Công bố tại Sở Y Tế Hà Nội</span></div>
-                    <div class="trust-item"><span>✅ 100% thảo dược tự nhiên VN</span></div>
-                    <div class="trust-item"><span>✅ Độ bền đai lên tới 3 năm</span></div>
+                    <span>✅ Công bố tại Sở Y Tế Hà Nội</span>
+                    <span>✅ 100% thảo dược tự nhiên VN</span>
+                    <span>✅ Độ bền đai lên tới 3 năm</span>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80" alt="Đai chườm thảo dược Hapaku">
+                <!-- Comment: hình người đang đeo đai — placeholder, thay ảnh thật sau -->
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80" alt="Người đeo đai chườm thảo dược Hapaku">
             </div>
         </div>
     </div>
-    <div class="wave-divider-bottom">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C63.29,31.42,143.76,64.84,213.6,74.5,250.45,79.56,287.62,63.15,321.39,56.44Z" class="shape-fill"></path>
-        </svg>
+    <div class="wave-bottom">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#ffffff" d="M0,40 C360,100 1080,0 1440,60 L1440,100 L0,100 Z"></path></svg>
     </div>
 </section>
 
-<!-- PROBLEM - OLD SOLUTIONS - HAPAKU SOLUTION -->
+<!-- =============================================
+     SECTION 2: CƠ CHẾ GIẢM ĐAU (Từ Demo mục 2)
+     Comment: "Kết hợp liệu pháp nhiệt nóng và thảo dược..."
+     ============================================= -->
+<section class="mechanism">
+    <div class="container">
+        <div class="mechanism-content">
+            <div class="mechanism-image">
+                <!-- image2.jpg: Khách hàng của chúng tôi -->
+                <img src="images/image2.jpg" alt="Khách hàng doanh nghiệp Hapaku" loading="lazy">
+            </div>
+            <div class="mechanism-text">
+                <h2 class="section-title">GIẢM ĐAU, GIÃN CƠ<br><span class="highlight">TĂNG LƯU THÔNG TUẦN HOÀN MÁU</span></h2>
+                <p class="mechanism-desc">Kết hợp <strong>liệu pháp nhiệt nóng</strong> và <strong>thảo dược truyền thống Việt Nam</strong>, đai chườm Hapaku tác động sâu qua da vào cơ và khớp, giúp giảm đau nhanh chóng mà không cần dùng thuốc.</p>
+                <div class="mechanism-badges">
+                    <div class="m-badge"><span class="m-icon">🌿</span> Herbal<br><small>Thảo dược</small></div>
+                    <div class="m-badge"><span class="m-icon">🔥</span> Heat Therapy<br><small>Tấm gia nhiệt</small></div>
+                </div>
+                <!-- CTA #2 -->
+                <a href="#giai-phap" class="btn btn-secondary mt-3">TÌM HIỂU THÊM &darr;</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =============================================
+     SECTION 3: VẤN ĐỀ → GIẢI PHÁP CŨ → GIẢI PHÁP HAPAKU
+     Comment: "Làm lại theo mô hình mới: Vấn đề – Giải pháp cũ – Giải pháp của Hapaku"
+     Comment: "Vấn đề: minh hoạ bằng 6 ảnh bên (đối tượng sử dụng)"
+     ============================================= -->
 <section class="problem-solution" id="giai-phap">
     <div class="container">
-        <!-- Problem (Đối tượng sử dụng) -->
+
+        <!-- 3A: VẤN ĐỀ / ĐỐI TƯỢNG SỬ DỤNG (6 hình tròn) -->
         <div class="section-header text-center">
-            <h2 class="text-green">Bạn đang chịu đựng đau lưng, đau bụng thường xuyên?</h2>
-            <p>Phù hợp với người bị đau lưng do thoái hóa cột sống, thoát vị đĩa đệm, ngồi nhiều, ít vận động...</p>
+            <p class="section-label">ĐỐI TƯỢNG SỬ DỤNG</p>
+            <h2 class="section-title">Bạn đang chịu đựng <span class="highlight">đau lưng, đau bụng</span> thường xuyên?</h2>
+            <p class="section-sub">Phù hợp với người bị đau lưng do thoái hóa cột sống, thoát vị đĩa đệm, ngồi nhiều, ít vận động...</p>
         </div>
-        
-        <div class="target-audience-grid">
+
+        <div class="target-grid">
             <div class="target-card">
-                <img src="https://images.unsplash.com/photo-1552824633-90d565691f3a?auto=format&fit=crop&w=200&q=80" alt="Người bị thoái hóa đốt sống" class="circle-img">
-                <p>Thoái hóa đốt sống lưng, thoát vị đĩa đệm</p>
+                <div class="circle-img-wrap"><img src="https://images.unsplash.com/photo-1616279969965-b3247ff3e57d?auto=format&fit=crop&w=300&q=80" alt="Thoái hoá đốt sống"></div>
+                <p>Đau thắt lưng, thoái hoá đốt sống L3, L4, L5</p>
             </div>
             <div class="target-card">
-                <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=200&q=80" alt="Người già đau mỏi" class="circle-img">
-                <p>Người già đau mỏi do tuổi tác, thay đổi thời tiết</p>
+                <div class="circle-img-wrap"><img src="https://images.unsplash.com/photo-1581579438747-104c53d7fbc4?auto=format&fit=crop&w=300&q=80" alt="Thoát vị đĩa đệm"></div>
+                <p>Thoát vị đĩa đệm, đau thần kinh toạ</p>
             </div>
             <div class="target-card">
-                <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=200&q=80" alt="Nhân viên văn phòng" class="circle-img">
-                <p>Người làm việc văn phòng ngồi nhiều</p>
+                <div class="circle-img-wrap"><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=300&q=80" alt="Nhân viên văn phòng"></div>
+                <p>Nhân viên văn phòng ngồi nhiều</p>
             </div>
             <div class="target-card">
-                <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=200&q=80" alt="Tài xế lái xe" class="circle-img">
+                <div class="circle-img-wrap"><img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=300&q=80" alt="Tài xế, lao động nặng"></div>
                 <p>Người lao động nặng, tài xế lái xe</p>
             </div>
             <div class="target-card">
-                <img src="https://images.unsplash.com/photo-1511216113906-8f56bbce4205?auto=format&fit=crop&w=200&q=80" alt="Phụ nữ sau sinh" class="circle-img">
+                <div class="circle-img-wrap"><img src="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=300&q=80" alt="Phụ nữ sau sinh"></div>
                 <p>Phụ nữ sau sinh, đau bụng kinh</p>
             </div>
             <div class="target-card">
-                <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=200&q=80" alt="Bệnh nhân nằm lâu ngày" class="circle-img">
+                <div class="circle-img-wrap"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=300&q=80" alt="Người bệnh nằm lâu"></div>
                 <p>Người bệnh phải nằm lâu ngày ít vận động</p>
             </div>
         </div>
 
-        <!-- Old Solutions -->
-        <div class="old-solutions mt-5">
-            <h3 class="text-center">Vấn đề không phải bạn chưa cố gắng chữa trị, mà là...</h3>
+        <!-- 3B: GIẢI PHÁP CŨ -->
+        <div class="old-solutions">
+            <h3 class="text-center">Vấn đề không phải bạn chưa cố gắng chữa trị, mà là…</h3>
             <div class="old-sol-grid">
                 <div class="old-sol-card">
-                    <h4>&#10060; Thuốc giảm đau</h4>
+                    <div class="old-sol-icon">💊</div>
+                    <h4>Thuốc giảm đau</h4>
                     <p>Chặn tín hiệu đau, không chữa nguyên nhân. Dùng lâu tổn hại dạ dày, gan, thận.</p>
                 </div>
                 <div class="old-sol-card">
-                    <h4>&#10060; Châm cứu, vật lý trị liệu</h4>
+                    <div class="old-sol-icon">🏥</div>
+                    <h4>Châm cứu, vật lý trị liệu</h4>
                     <p>Hiệu quả thật, nhưng bạn không thể đến bệnh viện mỗi ngày.</p>
                 </div>
                 <div class="old-sol-card">
-                    <h4>&#10060; Túi chườm nước nóng</h4>
-                    <p>Chỉ có tác dụng làm ấm, giãn cơ, không có thảo dược.</p>
+                    <div class="old-sol-icon">♨️</div>
+                    <h4>Túi chườm nước nóng</h4>
+                    <p>Chỉ có tác dụng làm ấm, giãn cơ, không có thảo dược hỗ trợ điều trị.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Hapaku Solution -->
-        <div class="hapaku-solution mt-5">
+        <!-- 3C: GIẢI PHÁP TỪ HAPAKU -->
+        <div class="hapaku-solution">
+            <div class="solution-badge-wrap text-center">
+                <span class="solution-badge">✅ GIẢI PHÁP TỪ HAPAKU</span>
+            </div>
             <div class="solution-content">
                 <div class="solution-image">
-                    <img src="images/image2.jpg" alt="Người sử dụng đai chườm Hapaku rất dễ chịu" loading="lazy">
+                    <!-- Placeholder: Người đang đeo đai thư giãn -->
+                    <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=600&q=80" alt="Giải pháp Hapaku" loading="lazy">
                 </div>
                 <div class="solution-text">
-                    <div class="solution-badge">GIẢI PHÁP TỪ HAPAKU</div>
-                    <h3 class="text-green">Thay vì đến phòng khám, hãy chủ động chăm sóc tại nhà</h3>
-                    <p class="solution-desc">Bằng liệu pháp chườm nóng thảo dược theo cơ chế đã được chứng minh từ hơn 2.400 năm trước. Kết hợp <strong>nhiệt nóng kiểm soát + 12 thảo dược Việt Nam</strong> tác động sâu vào cơ và khớp giúp:</p>
-                    
+                    <h3>Thay vì đến phòng khám,<br>hãy <span class="highlight">chủ động chăm sóc tại nhà</span></h3>
+                    <p>Bằng liệu pháp chườm nóng thảo dược theo cơ chế đã được chứng minh từ hơn 2.400 năm trước. Kết hợp <strong>nhiệt nóng kiểm soát + 12 thảo dược Việt Nam</strong> tác động sâu vào cơ và khớp giúp:</p>
                     <ul class="benefits-list">
-                        <li>✅ Giảm đau lưng, giảm co thắt trong các chứng bệnh mãn tính</li>
-                        <li>✅ Tăng tuần hoàn máu đến các vùng cơ bị chèn ép</li>
-                        <li>✅ Thư giãn, giải trừ mệt mỏi, giúp ngủ ngon sâu giấc hơn</li>
-                        <li>✅ Dùng được tại nhà hoặc ngay tại bàn làm việc — <strong>chỉ 20 phút/ngày</strong></li>
+                        <li><span class="check">✅</span> Giảm đau lưng, giảm co thắt trong các chứng bệnh mãn tính: đau thắt lưng, thoái hoá đốt sống L3, L4, L5, thoát vị đĩa đệm, đau thần kinh toạ, thần kinh liên sườn, xương khớp, đau bụng kinh…</li>
+                        <li><span class="check">✅</span> Tăng tuần hoàn máu đến các vùng cơ bị chèn ép dây thần kinh, lưu thông khí huyết</li>
+                        <li><span class="check">✅</span> Thư giãn, giải trừ mệt mỏi căng thẳng, giúp ngủ ngon và ngủ sâu giấc hơn</li>
+                        <li><span class="check">✅</span> Sức nóng giúp toát mồ hôi và thải độc cho cơ thể</li>
+                        <li><span class="check">✅</span> Dùng được tại nhà hoặc ngay tại bàn làm việc — <strong>chỉ 20 phút/ngày</strong></li>
                     </ul>
-                    
-                    <div class="certified-badge mt-2">
-                        <span>ĐƯỢC CÔNG BỐ TẠI SỞ Y TẾ HÀ NỘI</span>
+                    <div class="certified-badge">
+                        <span>🏛️ ĐƯỢC CÔNG BỐ TẠI SỞ Y TẾ HÀ NỘI</span>
                     </div>
-                    
-                    <div class="mt-3">
-                        <a href="#thanh-phan" class="btn btn-secondary btn-lg">TÌM HIỂU SẢN PHẨM &darr;</a>
-                    </div>
+                    <!-- CTA #3 -->
+                    <a href="#combo" class="btn btn-primary btn-lg mt-3">🛒 MUA NGAY – GIẢM ĐAU TỪ HÔM NAY</a>
                 </div>
             </div>
         </div>
+
     </div>
 </section>
 
-<!-- THÀNH PHẦN THẢO DƯỢC (Wavy Background) -->
-<section class="ingredients bg-green-soft" id="thanh-phan">
-    <div class="wave-divider-top">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C63.29,31.42,143.76,64.84,213.6,74.5,250.45,79.56,287.62,63.15,321.39,56.44Z" class="shape-fill-white"></path>
-        </svg>
+<!-- =============================================
+     SECTION 4: THÀNH PHẦN THẢO DƯỢC
+     Comment: "12 loại thảo dược, ko phải 8"
+     Comment: "Câu tấm thảo dược thay thế… cho xuống dưới ảnh thành phần"
+     ============================================= -->
+<section class="ingredients" id="thanh-phan">
+    <div class="wave-top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#ffffff" d="M0,60 C360,0 1080,100 1440,40 L1440,0 L0,0 Z"></path></svg>
     </div>
-    
     <div class="container">
         <div class="section-header text-center">
-            <div class="logo-small">Hapaku<sup>®</sup></div>
-            <h2 class="text-green-dark">100% THẢO DƯỢC TỰ NHIÊN TẠI VIỆT NAM</h2>
-            <p>12 loại thảo dược quý được chọn lọc kỹ lưỡng, không phải 8 loại thông thường</p>
-        </div>
-        
-        <div class="ingredients-showcase mt-4">
-            <img src="images/image3.png" alt="Thành phần thảo dược Hapaku" class="ingredients-main-img">
+            <div class="logo-badge">Hapaku<sup>®</sup></div>
+            <h2 class="section-title text-white">100% THẢO DƯỢC TỰ NHIÊN TẠI VIỆT NAM</h2>
+            <p class="text-white-muted">Tấm thảo dược dễ dàng thay thế sau 100 lần sử dụng (3-6 tháng)</p>
         </div>
 
-        <div class="ingredients-grid mt-4">
-            <div class="ingredient-card"><h4>Ngải cứu</h4></div>
-            <div class="ingredient-card"><h4>Gừng</h4></div>
-            <div class="ingredient-card"><h4>Thiên niên kiện</h4></div>
-            <div class="ingredient-card"><h4>Nghệ</h4></div>
-            <div class="ingredient-card"><h4>Xuyên khung</h4></div>
-            <div class="ingredient-card"><h4>Củ sả</h4></div>
-            <div class="ingredient-card"><h4>Bạch chỉ</h4></div>
-            <div class="ingredient-card"><h4>Trần bì</h4></div>
-            <div class="ingredient-card"><h4>Quế</h4></div>
-            <div class="ingredient-card"><h4>Hồi</h4></div>
-            <div class="ingredient-card"><h4>Cam thảo</h4></div>
-            <div class="ingredient-card"><h4>Tinh dầu Tràm</h4></div>
+        <!-- Ảnh chính: image3.png (gối thảo mộc + nguyên liệu) -->
+        <div class="ingredients-showcase">
+            <img src="images/image3.png" alt="Giữ gìn sức khỏe - Gối thảo mộc Hapaku và 12 nguyên liệu" class="ingredients-hero-img">
         </div>
-        <div class="text-center mt-3">
-            <p class="ingredients-note"><em>*Tấm thảo dược dễ dàng thay thế sau 100 lần sử dụng (3-6 tháng)</em></p>
+
+        <!-- 12 loại thảo dược -->
+        <div class="ingredients-grid">
+            <div class="herb-chip">🌿 Ngải cứu</div>
+            <div class="herb-chip">🫚 Gừng</div>
+            <div class="herb-chip">🌱 Thiên niên kiện</div>
+            <div class="herb-chip">🟡 Nghệ</div>
+            <div class="herb-chip">🌿 Xuyên khung</div>
+            <div class="herb-chip">🍋 Củ sả</div>
+            <div class="herb-chip">🤍 Bạch chỉ</div>
+            <div class="herb-chip">🍊 Trần bì</div>
+            <div class="herb-chip">🟤 Quế</div>
+            <div class="herb-chip">⭐ Hồi</div>
+            <div class="herb-chip">🌾 Cam thảo</div>
+            <div class="herb-chip">💧 Tinh dầu Tràm</div>
         </div>
-        
-        <!-- Trust Badges -->
-        <div class="trust-badges-row text-center mt-4">
-            <img src="https://via.placeholder.com/100x50?text=100%25+Thao+Duoc" alt="100% Thảo dược">
-            <img src="https://via.placeholder.com/100x50?text=Bo+Y+Te" alt="Bộ y tế">
-            <img src="https://via.placeholder.com/100x50?text=Since+2015" alt="Since 2015">
-            <img src="https://via.placeholder.com/100x50?text=Made+In+VN" alt="Made in Vietnam">
+
+        <!-- Trust icons -->
+        <div class="trust-row">
+            <div class="trust-badge-item">
+                <span class="trust-icon">🌿</span>
+                <span>100% Thảo dược VN</span>
+            </div>
+            <div class="trust-badge-item">
+                <span class="trust-icon">🏛️</span>
+                <span>Công bố Sở Y Tế</span>
+            </div>
+            <div class="trust-badge-item">
+                <span class="trust-icon">📅</span>
+                <span>Since 2015</span>
+            </div>
+            <div class="trust-badge-item">
+                <span class="trust-icon">🇻🇳</span>
+                <span>Made in Vietnam</span>
+            </div>
         </div>
     </div>
-
-    <div class="wave-divider-bottom">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C63.29,31.42,143.76,64.84,213.6,74.5,250.45,79.56,287.62,63.15,321.39,56.44Z" class="shape-fill-white"></path>
-        </svg>
+    <div class="wave-bottom">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#ffffff" d="M0,40 C360,100 1080,0 1440,60 L1440,100 L0,100 Z"></path></svg>
     </div>
 </section>
 
-<!-- CẤU TẠO CHI TIẾT -->
-<section class="structure-section">
+<!-- =============================================
+     SECTION 5: CẤU TẠO CHI TIẾT & NGUYÊN LÝ HOẠT ĐỘNG
+     Từ Demo mục 5
+     ============================================= -->
+<section class="structure" id="cau-tao">
     <div class="container">
         <div class="section-header text-center">
-            <h2 class="text-green">CẤU TẠO CHI TIẾT & NGUYÊN LÝ HOẠT ĐỘNG</h2>
+            <h2 class="section-title">CẤU TẠO CHI TIẾT &amp; <span class="highlight">NGUYÊN LÝ HOẠT ĐỘNG</span></h2>
         </div>
-        <div class="structure-content mt-5">
+        <div class="structure-content">
             <div class="structure-list">
                 <div class="str-item">
-                    <h4>1. Tấm thảo dược</h4>
-                    <p>Giữ tinh chất thảo dược, dễ dàng thay thế.</p>
+                    <div class="str-num">1</div>
+                    <div>
+                        <h4>Tấm thảo dược</h4>
+                        <p>Giữ tinh chất 12 loại thảo dược quý, dễ dàng thay thế sau 100 lần sử dụng.</p>
+                    </div>
                 </div>
                 <div class="str-item">
-                    <h4>2. Vỏ đai chườm</h4>
-                    <p>Chất liệu nhung mềm mại, ôm sát cơ thể, dễ giặt.</p>
+                    <div class="str-num">2</div>
+                    <div>
+                        <h4>Vỏ đai chườm</h4>
+                        <p>Chất liệu nhung mềm mại, ôm sát cơ thể, có thể tháo rời để giặt dễ dàng.</p>
+                    </div>
                 </div>
                 <div class="str-item">
-                    <h4>3. Tấm gia nhiệt</h4>
-                    <p>Tạo nhiệt hồng ngoại an toàn, làm ấm thảo dược.</p>
+                    <div class="str-num">3</div>
+                    <div>
+                        <h4>Tấm gia nhiệt hồng ngoại</h4>
+                        <p>Tạo nhiệt hồng ngoại an toàn, làm ấm đều thảo dược để giải phóng tinh chất.</p>
+                    </div>
                 </div>
                 <div class="str-item">
-                    <h4>4. Bộ điều khiển & Adapter</h4>
-                    <p>Điều chỉnh 6 mức nhiệt, chuyển đổi điện áp 12V an toàn.</p>
+                    <div class="str-num">4</div>
+                    <div>
+                        <h4>Adapter điện áp 12V</h4>
+                        <p>Chuyển đổi điện áp xuống 12V cực kỳ an toàn, không lo chập cháy.</p>
+                    </div>
+                </div>
+                <div class="str-item">
+                    <div class="str-num">5</div>
+                    <div>
+                        <h4>Bộ điều khiển 6 mức nhiệt</h4>
+                        <p>Điều chỉnh nhiệt độ linh hoạt, tự động ngắt sau 60 phút.</p>
+                    </div>
                 </div>
             </div>
-            <div class="structure-image">
-                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80" alt="Cấu tạo chi tiết đai chườm" class="rounded-img shadow-lg">
+            <div class="structure-visual">
+                <!-- Placeholder: Hình sản phẩm tháo rời ra -->
+                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80" alt="Cấu tạo đai chườm Hapaku" class="rounded-img shadow-lg">
+                <div class="structure-labels">
+                    <span class="s-label s-herbal">🌿 Herbal — Thảo Dược</span>
+                    <span class="s-label s-heat">🔥 Heat Therapy — Tấm Gia Nhiệt</span>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- VIDEO GIỚI THIỆU -->
-<section class="video-section bg-green-soft">
+<!-- =============================================
+     SECTION 6: VIDEO GIỚI THIỆU SẢN PHẨM
+     Comment: "Clip này gồm cả gt sp chứ ko chỉ HDSD"
+     ============================================= -->
+<section class="video-section">
+    <div class="wave-top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#ffffff" d="M0,60 C360,0 1080,100 1440,40 L1440,0 L0,0 Z"></path></svg>
+    </div>
     <div class="container text-center">
         <div class="section-header">
-            <h2 class="text-green-dark">HƯỚNG DẪN SỬ DỤNG</h2>
-            <p>Trị đau nhanh Lưng - Vai - Gáy bằng đai chườm nóng thảo dược</p>
+            <p class="section-label">HƯỚNG DẪN SỬ DỤNG</p>
+            <h2 class="section-title text-white">TRỊ ĐAU NHANH <span class="highlight-light">LƯNG – VAI – GÁY</span><br>BẰNG ĐAI CHƯỜM NÓNG THẢO DƯỢC</h2>
         </div>
-        <div class="video-wrapper mt-4">
+        <div class="video-wrapper">
             <div class="video-placeholder" id="videoPlaceholder">
-                <div class="play-btn">&#9654;</div>
+                <div class="play-btn-wrap">
+                    <div class="play-btn">&#9654;</div>
+                </div>
+            </div>
+        </div>
+        <!-- CTA #4 -->
+        <a href="#combo" class="btn btn-primary btn-lg mt-4">🛒 ĐẶT HÀNG NGAY – Freeship toàn quốc</a>
+    </div>
+    <div class="wave-bottom">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#ffffff" d="M0,40 C360,100 1080,0 1440,60 L1440,100 L0,100 Z"></path></svg>
+    </div>
+</section>
+
+<!-- =============================================
+     SECTION 7: TẠI SAO NÊN CHỌN HAPAKU (Carousel)
+     Comment: "Thêm tt này vào carousel: Độ bền đai chườm lên tới 3 năm"
+     ============================================= -->
+<section class="features-section">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="section-title">TẠI SAO NÊN CHỌN <span class="highlight">ĐAI CHƯỜM HAPAKU?</span></h2>
+        </div>
+        <div class="features-carousel">
+            <button class="carousel-btn carousel-prev" aria-label="Previous">&#10094;</button>
+            <div class="features-track" id="featuresTrack">
+                <div class="feature-slide">
+                    <div class="feature-icon">🌿</div>
+                    <h4>Nguồn nguyên liệu chất lượng</h4>
+                    <p>Kiểm soát chặt chẽ bởi các Bác sĩ Y học cổ truyền giàu kinh nghiệm. 12 loại thảo dược quý được chọn lọc kỹ lưỡng.</p>
+                </div>
+                <div class="feature-slide">
+                    <div class="feature-icon">⚡</div>
+                    <h4>Điện áp đầu ra 12V – 2.5A</h4>
+                    <p>Cực kỳ an toàn cho người sử dụng so với cắm điện trực tiếp 220V. Không lo chập cháy hay giật điện.</p>
+                </div>
+                <div class="feature-slide">
+                    <div class="feature-icon">💎</div>
+                    <h4>Độ bền đai chườm lên tới 3 năm</h4>
+                    <p>Đai chườm sử dụng liên tục 3-4 năm. Tấm thảo dược dễ dàng thay thế, tiết kiệm chi phí dài hạn.</p>
+                </div>
+            </div>
+            <button class="carousel-btn carousel-next" aria-label="Next">&#10095;</button>
+        </div>
+    </div>
+</section>
+
+<!-- =============================================
+     SECTION 8: REVIEWS KHÁCH HÀNG CÁ NHÂN (MỚI)
+     Comment: "THÊM MỚI 6–8 review có ảnh + sao + quote thật"
+     ============================================= -->
+<section class="reviews" id="danh-gia">
+    <div class="container">
+        <div class="section-header text-center">
+            <p class="section-label">KHÁCH HÀNG NÓI GÌ</p>
+            <h2 class="section-title">Hàng chục ngàn khách hàng đã tin tưởng</h2>
+            <p class="section-sub">Hơn 42,000 đánh giá 5 sao trên các nền tảng</p>
+        </div>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <img src="https://i.pravatar.cc/150?img=1" class="review-avatar" alt="Cô Mai">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Đai ôm sát lưng rất đã, nhiệt đều và mùi thảo dược thơm dễ ngủ. Đỡ đau lưng hẳn sau 1 tuần dùng."</p>
+                <strong>Cô Mai</strong><span class="review-loc">Hà Nội</span>
+            </div>
+            <div class="review-card">
+                <img src="https://i.pravatar.cc/150?img=11" class="review-avatar" alt="Anh Tuấn">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Mua cho mẹ bị thoái hoá. Mẹ khen suốt vì không phải đun nước nóng lách cách như túi cao su nữa."</p>
+                <strong>Anh Tuấn</strong><span class="review-loc">Đà Nẵng</span>
+            </div>
+            <div class="review-card">
+                <img src="https://i.pravatar.cc/150?img=5" class="review-avatar" alt="Chị Lan">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Ngồi văn phòng 8 tiếng hay mỏi thắt lưng. Cắm điện chườm ngay tại ghế rất tiện lợi. Mùi thơm lan toả cả phòng."</p>
+                <strong>Chị Lan</strong><span class="review-loc">TP.HCM</span>
+            </div>
+            <div class="review-card">
+                <img src="https://i.pravatar.cc/150?img=15" class="review-avatar" alt="Bác Hùng">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Tôi bị thoát vị đĩa đệm L4-L5. Dùng đai chườm mỗi tối 30 phút, sau 2 tuần đỡ hẳn, ngủ ngon hơn nhiều."</p>
+                <strong>Bác Hùng</strong><span class="review-loc">Hải Phòng</span>
+            </div>
+            <div class="review-card">
+                <img src="https://i.pravatar.cc/150?img=32" class="review-avatar" alt="Chị Hương">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Sau sinh bị đau lưng kinh khủng. Chồng mua cho cái đai này, chườm ấm mỗi tối rất dễ chịu và thơm."</p>
+                <strong>Chị Hương</strong><span class="review-loc">Cần Thơ</span>
+            </div>
+            <div class="review-card">
+                <img src="https://i.pravatar.cc/150?img=60" class="review-avatar" alt="Anh Minh">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Lái xe tải đường dài hay bị đau mỏi lưng. Đai nhỏ gọn mang theo xe được, rất tiện. Chất lượng tốt."</p>
+                <strong>Anh Minh</strong><span class="review-loc">Bình Dương</span>
+            </div>
+        </div>
+        <!-- CTA #5 -->
+        <div class="text-center mt-4">
+            <a href="#combo" class="btn btn-secondary btn-lg">XEM COMBO ƯU ĐÃI &rarr;</a>
+        </div>
+    </div>
+</section>
+
+<!-- =============================================
+     SECTION 9: BRAND STORY (DI CHUYỂN ĐẾN ĐÂY - trước Combo)
+     Comment: "Đoạn này thiết kế sao để nhìn rõ là 1 mục đặc biệt (brand story)"
+     Comment: "Ảnh chính nên là ảnh rất thư giãn trong không gian có cây xanh, trà ấm…"
+     Comment: "đưa lên trước combo"
+     ============================================= -->
+<section class="brand-story" id="thuong-hieu">
+    <div class="container">
+        <div class="story-content">
+            <div class="story-text">
+                <p class="story-label">BRAND STORY</p>
+                <h2 class="section-title">Câu Chuyện <span class="highlight">Hapaku</span></h2>
+                <p>Ra đời từ năm 2015, Hapaku ra đời với mong muốn mỗi người đều có thể <strong>chủ động chăm sóc bản thân mình tại nhà</strong>. Các loại đai chườm của Hapaku giúp giảm đau, thư giãn nhanh chóng nhờ liệu pháp nhiệt nóng kết hợp thảo dược truyền thống Việt Nam.</p>
+                <p>Chúng tôi tin rằng, khi thân tâm được chăm sóc trọn vẹn, mỗi người sẽ trở nên hạnh phúc và lan toả năng lượng hạnh phúc một cách tự nhiên.</p>
+                <div class="story-stats">
+                    <div class="stat"><span class="stat-num">42,000+</span><span class="stat-label">Đánh giá 5 sao</span></div>
+                    <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Năm kinh nghiệm</span></div>
+                    <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Đối tác lớn</span></div>
+                </div>
+            </div>
+            <div class="story-image">
+                <!-- Comment: ảnh rất thư giãn trong không gian có cây xanh, trà ấm -->
+                <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=600&q=80" alt="Không gian thư giãn Hapaku" loading="lazy">
             </div>
         </div>
     </div>
 </section>
 
-<!-- HỆ THỐNG PHÂN PHỐI -->
-<section class="distribution">
+<!-- =============================================
+     SECTION 10: CHỨNG CHỈ + ĐỐI TÁC PHÂN PHỐI
+     Comment: "Hệ thống CH thêm Lotte, An Khang, Emart"
+     Comment: "Phân phối ở siêu thị thì thêm: Aeon Mall, E-mart, TTTM Lotte, Nhà thuốc An Khang và các spa"
+     Comment: "Ko lấy hình [khách hàng B2B] này vì hình này cho khách B2B thôi"
+     ============================================= -->
+<section class="partners">
     <div class="container text-center">
         <div class="section-header">
-            <h2 class="text-green">Khách Hàng & Đối Tác Phân Phối</h2>
-            <p>Sản phẩm đã có mặt tại các hệ thống bán lẻ và doanh nghiệp uy tín</p>
+            <p class="section-label">HỆ THỐNG PHÂN PHỐI</p>
+            <h2 class="section-title">Có mặt tại các hệ thống <span class="highlight">bán lẻ uy tín</span></h2>
         </div>
-        <div class="dist-logos">
-            <div class="dist-logo-item">Aeon Mall</div>
-            <div class="dist-logo-item">TTTM Lotte</div>
-            <div class="dist-logo-item">Siêu thị E-mart</div>
-            <div class="dist-logo-item">Nhà thuốc An Khang</div>
-            <div class="dist-logo-item">Samsung</div>
-            <div class="dist-logo-item">Toyota</div>
-            <div class="dist-logo-item">VietinBank</div>
+        <div class="partner-logos">
+            <div class="partner-chip">Aeon Mall</div>
+            <div class="partner-chip">TTTM Lotte</div>
+            <div class="partner-chip">Siêu thị E-mart</div>
+            <div class="partner-chip">Nhà thuốc An Khang</div>
+            <div class="partner-chip">Các Spa cao cấp</div>
+            <div class="partner-chip">Shopee Mall</div>
+            <div class="partner-chip">Lazada</div>
+            <div class="partner-chip">TikTok Shop</div>
         </div>
     </div>
 </section>
 
-<!-- CAROUSEL ĐẶC ĐIỂM NỔI BẬT -->
-<section class="features-carousel bg-light">
+<!-- =============================================
+     SECTION 11: COMBO SẢN PHẨM
+     Comment: "Hình: Đai và tấm thảo dược → TẶNG túi chườm mắt (thể hiện Mua gì Tặng gì rõ ra)"
+     Comment: "Nên có 1 hình nhỏ người đang đeo lên mắt cho dễ hình dung"
+     Comment: "CTA cho nổi bật hơn nữa, to ra"
+     ============================================= -->
+<section class="combo-section" id="combo">
     <div class="container">
         <div class="section-header text-center">
-            <h2 class="text-green">TẠI SAO NÊN CHỌN ĐAI CHƯỜM HAPAKU?</h2>
+            <h2 class="section-title text-white">COMBO TĂNG CƯỜNG SỨC KHỎE</h2>
+            <p class="combo-subtitle">🎁 TẶNG TÚI CHƯỜM MẮT TRỊ GIÁ 198K</p>
+            <p class="text-white-muted">Áp dụng khi mua Đai lưng điện + 1 hoặc 2 tấm thảo dược</p>
         </div>
-        <div class="features-track mt-4">
-            <div class="feature-slide">
-                <h4>🌿 Nguồn nguyên liệu</h4>
-                <p>Kiểm soát chặt chẽ bởi các Bác sĩ Y học cổ truyền giàu kinh nghiệm.</p>
-            </div>
-            <div class="feature-slide">
-                <h4>⚡ Điện áp đầu ra 12V</h4>
-                <p>Cực kỳ an toàn cho người sử dụng so với cắm điện trực tiếp.</p>
-            </div>
-            <div class="feature-slide">
-                <h4>💎 Độ bền cao</h4>
-                <p>Đai chườm lên tới 3-4 năm sử dụng liên tục, dễ dàng thay thảo dược.</p>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- CHÍNH SÁCH BẢO HÀNH (NEW) -->
-<section class="policies-section">
-    <div class="container">
-        <div class="section-header text-center">
-            <h2 class="text-green">CHÍNH SÁCH BẢO HÀNH & BÁN HÀNG</h2>
-        </div>
-        <div class="policy-grid mt-4">
-            <div class="policy-box">
-                <div class="policy-title">THỜI GIAN BẢO HÀNH</div>
-                <div class="policy-value">6 Tháng</div>
-            </div>
-            <div class="policy-box">
-                <div class="policy-title">THỜI GIAN TRẢ HÀNG</div>
-                <div class="policy-value">3 Ngày</div>
-                <div class="policy-sub">Còn nguyên niêm phong</div>
-            </div>
-            <div class="policy-box">
-                <div class="policy-title">FREESHIP</div>
-                <div class="policy-value">100%</div>
-                <div class="policy-sub">Khi mua Combo</div>
-            </div>
-        </div>
-        <div class="text-center mt-4">
-             <a href="#faq" class="btn btn-secondary">TƯ VẤN NGAY</a>
-        </div>
-    </div>
-</section>
-
-<!-- COMBO SẢN PHẨM -->
-<section class="combo-section bg-green-gradient" id="combo">
-    <div class="container">
-        <div class="section-header text-center text-white">
-            <h2>COMBO TĂNG CƯỜNG SỨC KHỎE</h2>
-            <h3 class="combo-subtitle">TẶNG TÚI CHƯỜM MẮT 198K</h3>
-            <p>Áp dụng khi mua Đai lưng điện + 1 hoặc 2 tấm thảo dược</p>
-        </div>
-        
-        <div class="combo-grid mt-5">
+        <div class="combo-grid">
+            <!-- Combo 1: Best Seller -->
             <div class="combo-card combo-featured">
-                <div class="combo-tag">BEST SELLER</div>
-                <h3>Đai chườm thảo dược lưng bụng</h3>
+                <div class="combo-tag">⭐ BEST SELLER</div>
+                <h3>Đai Chườm Thảo Dược Lưng Bụng</h3>
                 <div class="combo-includes">
-                    <p>✅ 1 Đai chườm điện</p>
-                    <p>✅ 1 Tấm thảo dược lưng bụng</p>
-                    <div class="gift-text">
-                        <img src="images/image1.png" alt="Túi chườm mắt" class="small-gift-img"> 
-                        <p>🎁 <strong>TẶNG túi chườm mắt thảo dược</strong></p>
+                    <p>✅ 1 Đai chườm điện cao cấp</p>
+                    <p>✅ 1 Tấm thảo dược lưng bụng (12 loại)</p>
+                    <p>✅ Adapter 12V + Bộ điều khiển 6 mức nhiệt</p>
+                    <div class="gift-row">
+                        <div class="gift-img-wrap">
+                            <!-- image1.png: Phần Công dụng từ demo (dùng cho minh hoạ) -->
+                            <img src="images/image1.png" alt="Quà tặng túi chườm mắt">
+                        </div>
+                        <div>
+                            <p class="gift-label">🎁 QUÀ TẶNG KÈM</p>
+                            <p class="gift-name">Túi chườm mắt thảo dược trị giá 198K</p>
+                        </div>
                     </div>
                 </div>
                 <div class="combo-price">
                     <span class="price-old">850.000đ</span>
                     <span class="price-new">699.000đ</span>
                 </div>
-                <a href="https://shopee.vn/hapaku" target="_blank" rel="noopener" class="btn btn-primary btn-lg btn-pulsate">🛒 ĐẶT HÀNG NGAY</a>
+                <!-- CTA #6 - to, nổi bật -->
+                <a href="https://shopee.vn/hapaku" target="_blank" rel="noopener" class="btn btn-primary btn-xl btn-pulsate">🛒 ĐẶT HÀNG NGAY</a>
             </div>
-            
+
+            <!-- Combo 2 -->
             <div class="combo-card">
-                <h3>Combo Lưng Cổ Trọn Bộ</h3>
+                <h3>Combo Lưng + Cổ Trọn Bộ</h3>
                 <div class="combo-includes">
                     <p>✅ 1 Đai lưng bụng + 1 Đai cổ vai gáy</p>
-                    <p>✅ 2 Tấm thảo dược</p>
-                    <div class="gift-text">
-                        <img src="images/image1.png" alt="Túi chườm mắt" class="small-gift-img"> 
-                        <p>🎁 <strong>TẶNG túi chườm mắt thảo dược</strong></p>
+                    <p>✅ 2 Tấm thảo dược chuyên dụng</p>
+                    <p>✅ 2 Adapter + 2 Bộ điều khiển</p>
+                    <div class="gift-row">
+                        <div class="gift-img-wrap">
+                            <img src="images/image1.png" alt="Quà tặng túi chườm mắt">
+                        </div>
+                        <div>
+                            <p class="gift-label">🎁 QUÀ TẶNG KÈM</p>
+                            <p class="gift-name">Túi chườm mắt thảo dược trị giá 198K</p>
+                        </div>
                     </div>
                 </div>
                 <div class="combo-price">
                     <span class="price-old">1.600.000đ</span>
                     <span class="price-new">1.199.000đ</span>
                 </div>
-                <a href="https://shopee.vn/hapaku" target="_blank" rel="noopener" class="btn btn-outline btn-lg">MUA COMBO NÀY</a>
+                <a href="https://shopee.vn/hapaku" target="_blank" rel="noopener" class="btn btn-outline-white btn-xl">MUA COMBO NÀY</a>
             </div>
         </div>
     </div>
 </section>
 
-<!-- BRAND STORY -->
-<section class="brand-story" id="thuong-hieu">
-    <div class="container">
-        <div class="story-content">
-            <div class="story-text">
-                <div class="story-label">BRAND STORY</div>
-                <h2 class="text-green">Câu Chuyện Hapaku</h2>
-                <p>Ra đời từ năm 2015, Hapaku ra đời với mong muốn mỗi người đều có thể chủ động chăm sóc bản thân mình tại nhà. Các loại đai chườm của Hapaku giúp giảm đau, thư giãn nhanh chóng nhờ liệu pháp nhiệt nóng kết hợp thảo dược truyền thống Việt Nam.</p>
-                <p>Chúng tôi tin rằng, khi thân tâm được chăm sóc trọn vẹn, mỗi người sẽ trở nên hạnh phúc và lan toả năng lượng hạnh phúc một cách tự nhiên.</p>
-            </div>
-            <div class="story-image">
-                <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=600&q=80" alt="Câu chuyện Hapaku không gian thư giãn" class="rounded-img shadow-lg" loading="lazy">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- REVIEWS KHÁCH HÀNG -->
-<section class="reviews bg-light" id="danh-gia">
+<!-- =============================================
+     SECTION 12: CHÍNH SÁCH BẢO HÀNH (3 khối xanh)
+     Từ Demo mục 10
+     ============================================= -->
+<section class="policies">
     <div class="container">
         <div class="section-header text-center">
-            <h2 class="text-green">Hàng chục ngàn khách hàng đã tin tưởng</h2>
-            <p>Hơn 42,000 đánh giá 5 sao</p>
+            <h2 class="section-title">CHÍNH SÁCH BẢO HÀNH <span class="highlight">SẢN PHẨM</span></h2>
         </div>
-        <div class="reviews-grid mt-4">
-            <div class="review-card">
-                <img src="https://i.pravatar.cc/150?img=1" class="avatar" alt="Reviewer">
-                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p class="review-text">"Đai ôm sát lưng rất đã, nhiệt đều và mùi thảo dược thơm dễ ngủ. Đỡ đau lưng hẳn sau 1 tuần dùng."</p>
-                <strong>Cô Mai (Hà Nội)</strong>
+        <div class="policy-grid">
+            <div class="policy-box">
+                <p class="policy-label">THỜI GIAN BẢO HÀNH</p>
+                <p class="policy-value">6 <span>Tháng</span></p>
             </div>
-            <div class="review-card">
-                <img src="https://i.pravatar.cc/150?img=11" class="avatar" alt="Reviewer">
-                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p class="review-text">"Tôi mua cho mẹ bị thoái hoá. Mẹ khen suốt vì không phải đun nước nóng lách cách như túi cao su."</p>
-                <strong>Anh Tuấn (Đà Nẵng)</strong>
+            <div class="policy-box">
+                <p class="policy-label">THỜI GIAN TRẢ HÀNG</p>
+                <p class="policy-value">3 <span>Ngày</span></p>
+                <p class="policy-note">Còn nguyên niêm phong</p>
             </div>
-            <div class="review-card">
-                <img src="https://i.pravatar.cc/150?img=5" class="avatar" alt="Reviewer">
-                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p class="review-text">"Ngồi văn phòng 8 tiếng hay mỏi thắt lưng. Cắm điện chườm ngay tại ghế rất tiện lợi. Mùi thơm lan toả cả phòng."</p>
-                <strong>Chị Lan (TP.HCM)</strong>
+            <div class="policy-box">
+                <p class="policy-label">FREESHIP</p>
+                <p class="policy-value">100<span>%</span></p>
+                <p class="policy-note">Khi mua combo</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- FAQ -->
+<!-- =============================================
+     SECTION 13: FAQ
+     Comment: "Câu hỏi viết đầy đủ ra, hiện hơi cụt"
+     ============================================= -->
 <section class="faq" id="faq">
     <div class="container">
         <div class="section-header text-center">
-            <h2 class="text-green">CÂU HỎI THƯỜNG GẶP</h2>
+            <h2 class="section-title">CÂU HỎI <span class="highlight">THƯỜNG GẶP</span></h2>
         </div>
-        <div class="faq-list mt-4">
+        <div class="faq-list">
             <div class="faq-item">
-                <div class="faq-question">1. Có an toàn không?</div>
-                <div class="faq-answer">Hoàn toàn an toàn. Đai có 6 mức nhiệt, tự động ngắt sau 60 phút, và sử dụng điện áp 12V an toàn.</div>
+                <div class="faq-question" role="button" tabindex="0">
+                    <span>Đai chườm điện Hapaku có an toàn không?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">Hoàn toàn an toàn. Đai sử dụng adapter chuyển đổi điện áp xuống 12V (thấp hơn cả pin xe máy), có bộ điều khiển 6 mức nhiệt và tự động ngắt sau 60 phút. Sản phẩm đã được công bố tại Sở Y Tế Hà Nội.</div>
             </div>
             <div class="faq-item">
-                <div class="faq-question">2. Có bảo hành không?</div>
-                <div class="faq-answer">Có, Hapaku bảo hành 6 tháng đổi mới 3 ngày nếu có lỗi từ NSX.</div>
+                <div class="faq-question" role="button" tabindex="0">
+                    <span>Đai chườm Hapaku có bảo hành không? Chính sách đổi trả như thế nào?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">Có, Hapaku bảo hành 6 tháng đổi mới nếu có lỗi từ nhà sản xuất. Chính sách đổi trả trong 3 ngày nếu sản phẩm còn nguyên niêm phong. Freeship 100% khi mua combo.</div>
             </div>
             <div class="faq-item">
-                <div class="faq-question">3. Mua thêm tấm thảo dược ở đâu?</div>
-                <div class="faq-answer">Bạn có thể dễ dàng mua lại trên website hoặc các gian hàng Shopee, Lazada của Hapaku.</div>
+                <div class="faq-question" role="button" tabindex="0">
+                    <span>Tấm thảo dược dùng được bao lâu? Mua thêm ở đâu?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">Tấm thảo dược sử dụng được khoảng 100 lần (tương đương 3-6 tháng). Bạn có thể mua tấm thay thế trên website chính thức hoặc các gian hàng Shopee, Lazada, TikTok Shop của Hapaku.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" role="button" tabindex="0">
+                    <span>Đai chườm phù hợp với những ai? Có giới hạn tuổi không?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">Đai chườm phù hợp với mọi lứa tuổi từ 16 tuổi trở lên. Đặc biệt hiệu quả cho người bị đau lưng mãn tính, thoái hoá cột sống, nhân viên văn phòng, tài xế, phụ nữ sau sinh và người cao tuổi.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" role="button" tabindex="0">
+                    <span>Mỗi ngày nên chườm bao lâu để đạt hiệu quả tốt nhất?</span>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">Nên chườm 20-30 phút mỗi lần, 1-2 lần mỗi ngày. Có thể chườm ngay khi đang làm việc, xem TV hoặc trước khi ngủ. Đai sẽ tự động ngắt sau 60 phút để đảm bảo an toàn.</div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="footer bg-green-dark text-white">
-    <div class="container text-center">
-        <h3 class="mb-3">Hapaku<sup>®</sup></h3>
-        <p>Công Ty Cổ Phần Thương Mại và Dịch Vụ Hapaku</p>
-        <p>Email: contact@hapaku.vn | Hotline: 1900 1234</p>
-        <p class="mt-3">&copy; 2025 Hapaku. All rights reserved.</p>
+<!-- =============================================
+     FOOTER
+     Comment: "Hệ thống CH thêm Lotte, An Khang, Emart"
+     ============================================= -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3 class="logo">Hapaku<sup>®</sup></h3>
+                <p>100% Thảo dược tự nhiên tại Việt Nam</p>
+                <p class="footer-certified">🏛️ Đã thông báo Bộ Công Thương</p>
+            </div>
+            <div class="footer-links">
+                <h4>Liên hệ</h4>
+                <p>Công Ty CP Đầu tư và PT Sen Capital</p>
+                <p>Email: contact@hapaku.vn</p>
+                <p>Hotline: 1900 1234</p>
+            </div>
+            <div class="footer-links">
+                <h4>Hệ thống bán lẻ</h4>
+                <p>Aeon Mall &bull; TTTM Lotte</p>
+                <p>E-mart &bull; Nhà thuốc An Khang</p>
+                <p>Shopee &bull; Lazada &bull; TikTok Shop</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hapaku. All rights reserved.</p>
+        </div>
     </div>
 </footer>
 
